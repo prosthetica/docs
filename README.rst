@@ -1,10 +1,7 @@
 QUMODE
 ========
 
-For instance:
 
-.. image:: Banner.png
-   :width: 40pt
 
 
 
@@ -14,8 +11,12 @@ This is the documentation of the Qumode visual programming language.
 
 What is Qumode?
     Qumode is lets users create programs by manipulating program elements graphically rather than by specifying them textually.
-    Qumode has a visual syntax instead of textual sntax, but we are looking into introducing dual-syntax,
+    Qumode has a visual syntax instead of textual syntax, but we are looking into introducing dual-syntax,
     similar to that of Python. It is statically typed though hence a bit more strict with compile time errors.
+
+
+.. image:: Banner.jpg
+  
 
 
 Why Visual Scripting?
@@ -31,6 +32,7 @@ Features
 
 - Gate Visualisation
 - Do matrix operations on gates
+- 
 
 
 .. glossary::
