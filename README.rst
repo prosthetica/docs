@@ -14,7 +14,8 @@ MAth  $sdf$
     project.do_stuff()
 
 
-
+.. math:
+   \frac{we}{v}
 
 Features
 --------
