@@ -7,7 +7,7 @@ by providing a basic explanation of how to do it easily.
 > Look how easy it is to use:
 MAth  $sdf$
 
-`dc`
+``dc``
 
     import project
     # Get your stuff done
@@ -16,6 +16,33 @@ MAth  $sdf$
 
 .. math:
    \frac{we}{v}
+
+.. math::
+
+    n_{\mathrm{offset}} = \sum_{k=0}^{N-1} s_k n_k
+
+    
+- iuh
+- jn
+- ok
+
+`<http://www.python.org/>`_
+usage
+.. _usage:
+
+wait
+   kmklkmmkl
+
+.. code-block:: html
+    :linenos:
+
+    <h1>code block example</h1>   
+.. _Python: http://www.python.org/ 
+
+.. glossary::
+     apical
+        at the top of the plant.
+
 
 Features
 --------
