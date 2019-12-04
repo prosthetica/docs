@@ -13,6 +13,7 @@
 # serve to show the default.
 
 import sys
+import m2r
 import os
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -43,7 +44,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Qumode Editor'
+project = u'Qumode VPL'
 copyright = u'2014, Read the Docs'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -256,3 +257,13 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+def docstring(app, what, name, obj, options, lines):
+    md  = '\n'.join(lines)
+    rst = m2r.convert(md)
+    lines.clear()
+    for line in rst.splitlines():
+        lines.append(line)
+
+def setup(app):
+    app.connect('autodoc-process-docstring', docstring)

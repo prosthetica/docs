@@ -21,7 +21,7 @@ MAth  $sdf$
 
     n_{\mathrm{offset}} = \sum_{k=0}^{N-1} s_k n_k
 
-    
+
 - iuh
 - jn
 - ok
@@ -36,7 +36,8 @@ wait
 .. code-block:: html
     :linenos:
 
-    <h1>code block example</h1>   
+    <h1>code block example</h1>  
+     
 .. _Python: http://www.python.org/ 
 
 .. glossary::
