@@ -1,11 +1,12 @@
 QUMODE
 ========
 
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
+For instance:
 
-> Look how easy it is to use:
-MAth  $sdf$
+.. image:: magnetic-balls.jpg
+   :width: 40pt
+
+
 
 ``dc``
 
@@ -26,7 +27,9 @@ MAth  $sdf$
 - jn
 - ok
 
-`<http://www.python.org/>`_
+`<http://www.python.org/>`
+
+_
 usage
 .. _usage:
 
@@ -37,40 +40,55 @@ wait
     :linenos:
 
     <h1>code block example</h1>  
-     
-.. _Python: http://www.python.org/ 
+
+
 
 .. glossary::
      apical
         at the top of the plant.
 
 
+This is the documentation of the Qumode visual programming language.
+
+``The documentation is still under construction``
+
+available at readthedocs_
+
+. _readthedocs: https://qumode.readthedocs.io/
+What is Avalon
+Avalon is a programming language that targets hybrid classical-quantum computers. These computers contain a classical processor that tells a quantum processor what to do.
+
+Avalon has a syntax similar to that of Python so if you know Python, you should be at ease working with it.
+It is statically typed though hence a bit more strict with compile time errors. But it also features type inference so you don't need to provide the type unless necessary.
+
+Why Avalon
+Quantum computing is progressing and it needs tools among which programming languages are going to play a vital role. Yes, there exists other programming 
+languages that target hybrid classical-quantum computers but I have found them to be lacking in abstractions and many even exposing hardware primitives making them unfriendly to the novice developer.        
+
+
 Features
 --------
 
-- Be awesome
-- Make things faster
+- Gate Visualisation
+- Do matrix operations on gates
 
 Installation
 ------------
 
-Install $project by running:
 
-    install project
+For now there is no installation, only a web interface is provided.
+
 
 Contribute
 ----------
 
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+This is an open source project, and thus you can contribute on the `Quomde
+<https://github.com/qumode/>`_ official repository.
 
-Support
--------
+- Source Code: github.com/qumode
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
 
 License
 -------
 
-The project is licensed under the BSD license.
+The project is licensed under the MIT license.
