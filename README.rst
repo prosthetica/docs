@@ -12,19 +12,17 @@ This is the documentation of the Qumode visual programming language.
 
 
 
-What is Qumode_
-Qumode is lets users create programs by manipulating program elements graphically rather than by specifying them textually.
-
-Qumode has a visual syntax instead of textual sntax, but we are looking into introducing dual-syntax,
-similar to that of Python. It is statically typed though hence a bit more strict with compile time errors.
+What is Qumode?
+    Qumode is lets users create programs by manipulating program elements graphically rather than by specifying them textually.
+    Qumode has a visual syntax instead of textual sntax, but we are looking into introducing dual-syntax,
+    similar to that of Python. It is statically typed though hence a bit more strict with compile time errors.
 
 
 Why Visual Scripting?
-
-VPL's lets users create programs by manipulating program elements graphically rather than by specifying them textually.
-_Qumode this name was inspired by the article , `the power of one qumode<https://arxiv.org/abs/1510.04758>`_  
-With the popularity of quantum computing increasing, tools that offer diverse user experience of programming are essential.
-Unlike typical programming languages that target robust and  but I have found them to be lacking in abstractions and many even exposing hardware primitives making them unfriendly to the novice developer.        
+    VPL's lets users create programs by manipulating program elements graphically rather than by specifying them textually.
+    _Qumode this name was inspired by the article , `the power of one qumode<https://arxiv.org/abs/1510.04758>`_  
+    With the popularity of quantum computing increasing, tools that offer diverse user experience of programming are essential.
+    Unlike typical programming languages that target robust and  but I have found them to be lacking in abstractions and many even exposing hardware primitives making them unfriendly to the novice developer.        
 
 
 Features
