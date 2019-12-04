@@ -19,8 +19,9 @@ What is Qumode?
 
 
 Why Visual Scripting?
-    VPL's lets users create programs by manipulating program elements graphically rather than by specifying them textually.
-    _Qumode this name was inspired by the article , `the power of one qumode<https://arxiv.org/abs/1510.04758>`_  
+    Visual Scripting Languages lets users create programs by manipulating program elements graphically rather than by specifying them textually.
+    Qumode as a name was inspired by the article , `the power of one qumode
+    <https://arxiv.org/abs/1510.04758>`_  
     With the popularity of quantum computing increasing, tools that offer diverse user experience of programming are essential.
     Unlike typical programming languages that target robust and  but I have found them to be lacking in abstractions and many even exposing hardware primitives making them unfriendly to the novice developer.        
 
@@ -47,7 +48,8 @@ For now there is no installation, only a web interface is provided.
 Contribute
 ----------
 
-This is an open source project, and thus you can contribute on the `Qumode
+This is an open source project, and thus you can contribute on the 
+`Qumode
 <https://github.com/qumode/>`_ official repository.
 
 - Source Code: github.com/qumode
